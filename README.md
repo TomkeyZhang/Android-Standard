@@ -53,3 +53,5 @@
   + drawable: selector\_house,shap\_house
 * 控件id：尽量以对应控件的各单词英文首字母结尾，如TextView就以tv结尾(house\_tv)，ImageView就以iv结尾(house\_iv)，CheckBox就以cb结尾(house\_cb)，Button就以btn结尾(house\_btn)等
 * 菜单（menu）的id：建议以action开头,如action\_house
+5. [新手指南](http://git.corp.anjuke.com/android/AndroidLibrary/tree/master)
+------------------
