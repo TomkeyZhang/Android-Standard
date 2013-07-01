@@ -34,6 +34,7 @@
   + **成员变量能private就不要default，能default就不要protected，最好不要public**
   + 不要在activity中使用静态成员变量
   + 不推荐使用下划线
+  + 局域变量名要尽量短，推荐用缩写，比如 StringBuilder sb
   + 非公有，非静态成员变量以m开头
   + 静态成员变量以s开头
   + 其他变量以小写字母开头
