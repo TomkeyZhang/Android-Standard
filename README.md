@@ -12,6 +12,8 @@
 ------------------------
 *  **使用统一的 Eclipse 的代码格式**
 [anjuke-eclipse-android-code-format-1.0.xml]()
+*  **设置统一的保存后的动作Eclipse-Preferences-Java-Editor-Save Action,选中Perform the selected actions on save,
+ Format source code,Format all lines,选中Organize imports**
 
  3. 代码命名规范
 ------------------------
