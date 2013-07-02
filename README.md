@@ -11,7 +11,7 @@
  2. 代码格式 
 ------------------------
 *  **使用统一的 Eclipse 的代码格式**
-[anjuke-eclipse-android-code-format-1.0.xml]()
+[anjuke-eclipse-android-code-format-1.0.xml](http://git.corp.anjuke.com/android/init/blob/master/format.xml )
 *  **设置统一的保存后的动作Eclipse-Preferences-Java-Editor-Save Action,选中Perform the selected actions on save,
  Format source code,Format all lines,选中Organize imports**
 
