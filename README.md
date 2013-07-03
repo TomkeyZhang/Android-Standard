@@ -56,5 +56,10 @@
   + drawable: selector\_house,shap\_house
 * 控件id：尽量以对应控件的各单词英文首字母结尾，如TextView就以tv结尾(house\_tv)，ImageView就以iv结尾(house\_iv)，CheckBox就以cb结尾(house\_cb)，Button就以btn结尾(house\_btn)等
 * 菜单（menu）的id：建议以action开头,如action\_house
-5. [新手指南](http://git.corp.anjuke.com/android/AndroidLibrary/tree/master)
+5. 开发建议
+------------------------
+* 所有的非AtionBar的界面均采用Fragment（片段式）来实现，在Activity中只做Fragment对象的管理以及ActionBar的处理工作
+* 多线程编程时，采用Loader来代替AsyncTask和Thread
+* 按功能对Activity和Fragment进行分包（可以考虑将相同功能模块的Activity和Fragment放在同一个包下）
+6. [新手指南](http://git.corp.anjuke.com/android/AndroidLibrary/tree/master)
 ------------------
