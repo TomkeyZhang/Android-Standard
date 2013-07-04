@@ -64,5 +64,6 @@
 * 不要使用静态全局变量，如果确实需要，可以考虑将其作为Application的成员变量（慎用）
 * 如果仅希望一段代码在UI线程执行，可以考虑使用activity.runOnUiThread方法
 * 不要在Activity或者Fragment中写跟界面无关的代码
+* 不要捕获不处理的异常
 6. [新手指南](http://git.corp.anjuke.com/android/AndroidLibrary/tree/master)
 ------------------
